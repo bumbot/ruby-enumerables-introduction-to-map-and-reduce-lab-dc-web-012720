@@ -55,8 +55,9 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-
-
+  
 end
 
-reduce_to_any_true(source_array)
+def reduce_to_any_true(source_array)
+  
+end
