@@ -70,7 +70,9 @@ def reduce_to_any_true(source_array)
   while count < source_array.length do
     if source_array[count] == true
       is_true = true
-    end
+    
+    count += 1
   end
+  
   is_true
 end
