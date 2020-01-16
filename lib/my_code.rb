@@ -10,7 +10,7 @@ def map_to_negativize(source_array)
   new_array
 end
 
-def map_to_no_chance(source_array)
+def map_to_no_change(source_array)
   new_array = []
   count = 0
   
