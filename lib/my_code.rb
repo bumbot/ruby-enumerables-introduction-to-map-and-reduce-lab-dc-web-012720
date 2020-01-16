@@ -55,7 +55,13 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-  
+  is_true = true
+  count = 0
+  while count < source_array.length do
+    if source_array[count] == false
+      is_true = false
+  end
+  is_true
 end
 
 def reduce_to_any_true(source_array)
